@@ -18,7 +18,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Addition")
     public void testAddNumber(){
-        int actual = calculator.add(2,5); //FAILED TEST
+        int actual = calculator.add(2,4);
         assertEquals(6,actual);
     }
 
